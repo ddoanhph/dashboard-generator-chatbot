@@ -5,7 +5,7 @@
 | Layer | Technology / Choice | Notes |
 |-------|-------------------|-------|
 | **Backend** | Flask (Python 3.11+) | Lightweight, production-ready web framework |
-| **AI Engine** | Google Vertex AI → `gemini-2.0-flash-001` <br>Temperature: 0.3 for consistency | Latest Gemini model with 8192 token output |
+| **AI Engine** | Google Vertex AI → `gemini-2.0-flash-001` <br>Temperature: 0.3 for consistency |  |
 | **Data Layer** | Pandas DataFrames <br>In-memory caching after first load | |
 | **Frontend** | React 18 + Vite <br>Recharts 2.x for visualizations <br>Lucide React for icons | Modern, component-based SPA |
 | **Charts** | Recharts (native React integration) | Supports Bar, Line, Pie, Donut, Table |
