@@ -12,7 +12,7 @@
 | **State Management** | React Hooks (useState) <br>No Redux required | Simple, effective for current scope |
 | **API Communication** | Fetch API (native browser) <br>JSON request/response | No axios dependency needed |
 | **Styling** | Inline styles + CSS-in-JS | Custom color palette: #567c8d, #c8d9e5, #2f4156 |
-| **Deployment** | **Backend**: GCP Cloud Run (https://dashboard-agent-mbhsrssbzq-uc.a.run.app/) <br>**Frontend**: Static hosting (Vite build) | Zero-ops, auto-scaling on Cloud Run |
+| **Deployment** | **Backend**: GCP Cloud Run <br>**Frontend**: Static hosting (Vite build) | Zero-ops, auto-scaling on Cloud Run |
 | **CORS** | Flask-CORS with `origins="*"` | Currently permissive; tighten for production |
 | **Dataset** | Fixed CSV | No file upload (security by design) |
 
